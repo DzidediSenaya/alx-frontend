@@ -1,0 +1,11 @@
+/* Select the element with data-section-theme="dark" attribute */
+[data-section-theme="dark"] {
+  /* Redefine custom property text-color to color-white */
+  --text-color: #ffffff;
+  
+  /* Redefine custom property section-title-color to color-white */
+  --section-title-color: #ffffff;
+  
+  /* Set the background to the variable color-black */
+  background: #090909;
+}
