@@ -1,0 +1,29 @@
+/* Task: Custom properties, section-tagline and card-category declarations, body and anchor declarations */
+
+/* Custom properties for colors */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+/* Revisit section-tagline and card-category declarations */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Revisit body and anchor declarations */
+body {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+}

@@ -1,0 +1,6 @@
+/* Task: Style anchor elements to remove text decoration */
+
+/* Remove text decoration from anchor elements */
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,7 @@
+/* Task: Update font-family choices for base and title */
+
+/* Custom font-family properties */
+:root {
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

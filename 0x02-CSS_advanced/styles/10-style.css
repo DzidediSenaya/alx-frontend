@@ -1,0 +1,11 @@
+/* Task: Custom property for section-header alignment */
+
+/* Custom property for section-header alignment */
+:root {
+    --section-header-align: center;
+}
+
+/* Set horizontal alignment for elements with section-header class */
+.section-header {
+    text-align: var(--section-header-align);
+}

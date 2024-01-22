@@ -1,0 +1,26 @@
+/* Task: Specific declarations for body, anchor elements, visually-hidden class, card-category class, and section-tagline class */
+
+/* Body foreground color */
+body {
+    color: #161616;
+}
+
+/* Anchor elements foreground color */
+a {
+    color: #161616;
+}
+
+/* Hide elements with visually-hidden class */
+.visually-hidden {
+    display: none;
+}
+
+/* Foreground color for elements with card-category class */
+.card-category {
+    color: #D73953;
+}
+
+/* Foreground color for elements with section-tagline class */
+.section-tagline {
+    color: #D73953;
+}
