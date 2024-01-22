@@ -1,0 +1,15 @@
+/* Select all classes that start with col- */
+[class^="col-"] {
+  float: left;
+  padding: 0.5em; /* Set padding to half of the root element */
+}
+
+/* Remove references to common properties for individual col-1-3 class */
+.col-1-3 {
+  width: 33.33%; /* Set the width to 33.33% of its parent */
+}
+
+/* Remove references to common properties for individual col-1-2 class */
+.col-1-2 {
+  width: 50%; /* Set the width to 50% of the parent */
+}
