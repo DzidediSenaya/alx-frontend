@@ -1,0 +1,21 @@
+/* Task: Styling for anchor elements and their states */
+
+/* Style for anchor elements containing a hyperlink */
+a[href] {
+    /* Your styles for regular state go here */
+}
+
+/* Style for visited state of the link */
+a[href]:visited {
+    font-style: italic;
+}
+
+/* Style for hover state of the link */
+a[href]:hover {
+    text-decoration: underline;
+}
+
+/* Style for active state of the link */
+a[href]:active {
+    background-color: var(--color-light-grey);
+}
