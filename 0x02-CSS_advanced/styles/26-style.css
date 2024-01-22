@@ -1,0 +1,18 @@
+/* card-testimonial selector */
+.card-testimonial {
+  text-align: center;
+}
+
+/* Target the card-avatar inside the card-testimonial */
+.card-testimonial .card-avatar {
+  border-radius: 50%;
+  width: 10em; /* Assuming the root element is used as the base font size */
+  height: 10em; /* Assuming the root element is used as the base font size */
+}
+
+/* Target the <cite> tag inside card-quote inside card-testimonial */
+.card-testimonial .card-quote cite {
+  display: block;
+  padding-top: 1em; /* Assuming the root element is used as the base font size */
+  color: var(--color-primary);
+}
