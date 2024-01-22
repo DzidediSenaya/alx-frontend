@@ -1,0 +1,18 @@
+/* Target card-title inside card-services */
+.card-services .card-title {
+  margin: 0; /* No margin on all sides */
+}
+
+/* Target a inside card-services */
+.card-services a {
+  display: block;
+  padding: 2rem; /* 2x the root element */
+  background-color: var(--color-light-grey);
+  text-decoration: none; /* No text decoration */
+}
+
+/* Target hover state of a inside card-services */
+.card-services a:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
