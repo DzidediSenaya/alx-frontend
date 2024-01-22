@@ -1,0 +1,44 @@
+/* styles/19-style.css */
+
+/* Create the custom property section-tagline-margin and set to 0 */
+:root {
+  --section-tagline-margin: 0;
+}
+
+/* Set the margins for the section-tagline class to var(--section-tagline-margin) */
+.section-tagline {
+  margin: var(--section-tagline-margin);
+}
+
+/* Target all ul elements with the class row */
+ul.row {
+  margin: 0; /* Set margins to 0 */
+  padding: 0; /* Set padding to 0 */
+  list-style: none; /* Remove default list styles */
+}
+
+/* Target the col-1-3 class */
+.col-1-3 {
+  width: 33.33%; /* Set width to 33.33% of its parent */
+  float: left; /* Float it to the left */
+  padding: calc(var(--root-element-font-size) / 2); /* Set padding to half of the root element */
+}
+
+/* Target the col-1-2 class */
+.col-1-2 {
+  width: 50%; /* Set width to 50% of its parent */
+  float: left; /* Float it to the left */
+  padding: calc(var(--root-element-font-size) / 2); /* Set padding to half of the root element */
+}
+
+/* Target the footer-copyright class */
+.footer-copyright {
+  margin: 0; /* No margins */
+  font-size: var(--font-size-small); /* Set font size to font-size-small */
+  color: var(--text-color); /* Set foreground color to text-color */
+}
+
+/* Target all ul tags in the footer class and align text to the right */
+.footer ul {
+  text-align: right;
+}
