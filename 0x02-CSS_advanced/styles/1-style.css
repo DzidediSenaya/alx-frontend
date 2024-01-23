@@ -1,20 +1,4 @@
-/* Task: Make scrolling behavior fluid and ensure W3C compliance */
-
-/* Reset default margin and padding for better consistency */
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 /* Enable smooth scrolling for the entire page */
 html {
     scroll-behavior: smooth;
-}
-
-/* Additional styles for better visuals (optional) */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f5f5f5;
-    color: #333;
 }
